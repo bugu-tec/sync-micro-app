@@ -19,7 +19,32 @@ return <MicroApp url={url} />;
 
 ## Options
 
-TODO
+### url
+
+文件url地址
+
+### config
+
+输入环境变量
+```
+{ height: 100 }
+```
+
+### className
+
+组件类名
+
+### qiankunConfig
+
+qiankun loadMicroApp额外配置
+
+### beforeRequest、getRouter
+
+低代码相关配置
+
+### getCurrentMicroApp
+
+返回当前微应用实例
 
 ## LICENSE
 
